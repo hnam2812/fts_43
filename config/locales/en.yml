@@ -1,4 +1,6 @@
 en:
+  form_content: "The form contains"
+  created_ago: "Created %{time} ago."
   layouts:
     header:
       website: "Framgia test system"

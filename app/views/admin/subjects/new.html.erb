@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-offset-3 col-md-7">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h4><%= t "admin.subject.add.title" %></h4>
+      </div>
+      <div class="panel-body">
+        <%= form_for @subject, url: admin_subjects_path do |f| %>
+          <%= render "shared/error_messages", object: f.object %>
+          <%= f.label :name %>
+          <%= f.text_field :name, class: "form-control" %>
+          <%= f.submit t("admin.subject.add.btn"), class: "btn btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

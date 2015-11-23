@@ -11,7 +11,9 @@ gem "turbolinks"
 gem "jbuilder", "~> 2.0"
 gem "devise"
 gem "sdoc", "~> 0.4.0", group: :doc
-
+gem "config"
+gem "kaminari"
+gem "bootstrap-will_paginate", "0.0.10"
 group :development, :test do
   gem "byebug"
 end
