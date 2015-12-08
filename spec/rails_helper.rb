@@ -6,6 +6,7 @@ require "spec_helper"
 require "rspec/rails"
 require "capybara/rails"
 require "devise"
+require "shoulda/matchers"
 
 ActiveRecord::Migration.maintain_test_schema!
 

@@ -37,6 +37,7 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "capybara"
   gem "database_cleaner"
+  gem "shoulda-matchers"
 end
 
 group :production do
